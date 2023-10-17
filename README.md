@@ -12,10 +12,15 @@ contacts_project/
 └──ContactsBook3.0/
 |	└── main.py 
 │	└── database.py
-| 	└── views.py
+| └── views.py
 │	└── main.py
 │	└── model.py
 |	└── contacts.py
+
+Requirement:
+termcolor py module.
+command to install.
+pip install termcolor
 
 Each component serves a specific purpose within the application:
 •	model.py: Defines the Contact class to structure contact information.
