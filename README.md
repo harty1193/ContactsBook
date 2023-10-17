@@ -17,17 +17,17 @@ contacts_project/
 |	└── contacts.py
 
 ##Requirement:
-termcolor py module.
+termcolor py module. <br>
 command to install.
 `pip install termcolor`
 
 Each component serves a specific purpose within the application:
 <ul>
-model.py: Defines the Contact class to structure contact information.
-<li>database.py: Manages the storage and retrieval of contacts using a dictionary data structure and pickle files.</li>
-<li>views.py: Provides user interaction and a menu system, allowing users to input choices and interact with contacts.</li>
-<li>main.py: The main entry point for the application, where the user interacts with the ContactsBook and initiates contact-related actions.</li>
-<li>contacts.py: The primary entry point for running the application.
+<li><b>model.py:</b> Defines the Contact class to structure contact information.</li>
+<li><b>database.py:</b> Manages the storage and retrieval of contacts using a dictionary data structure and pickle files.</li>
+<li><b>views.py:</b> Provides user interaction and a menu system, allowing users to input choices and interact with contacts.</li>
+<li><b>main.py:</b> The main entry point for the application, where the user interacts with the ContactsBook and initiates contact-related actions.</li>
+<li><b>contacts.py:</b> The primary entry point for running the application.
 </ul>
 
 Features
