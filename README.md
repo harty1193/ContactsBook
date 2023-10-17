@@ -1,11 +1,10 @@
-# ContactsBook
+#ContactsBook Application
+In Python
 
-ContactsBook Application
-
-Overview
+##Overview
 The ContactsBook application is a Python program designed to help users create, store, manage, and interact with a list of contacts. This application uses a command-line interface (CLI) to provide various functionalities for managing contact information. It allows users to add new contacts, search for existing contacts, edit contact details, delete contacts, display all contacts, and save/restore the contact list to/from a file. The program is organized into separate modules within a directory structure, making it easy to maintain and expand.
 
-Directory Structure
+#Directory Structure
 The ContactsBook application is organized into the following directory structure:
 contacts_project/
 │
@@ -17,17 +16,19 @@ contacts_project/
 │	└── model.py
 |	└── contacts.py
 
-Requirement:
+##Requirement:
 termcolor py module.
 command to install.
-pip install termcolor
+`pip install termcolor`
 
 Each component serves a specific purpose within the application:
-•	model.py: Defines the Contact class to structure contact information.
-•	database.py: Manages the storage and retrieval of contacts using a dictionary data structure and pickle files.
-•	views.py: Provides user interaction and a menu system, allowing users to input choices and interact with contacts.
-•	main.py: The main entry point for the application, where the user interacts with the ContactsBook and initiates contact-related actions.
-•	contacts.py: The primary entry point for running the application.
+<ul>
+model.py: Defines the Contact class to structure contact information.
+<li>database.py: Manages the storage and retrieval of contacts using a dictionary data structure and pickle files.</li>
+<li>views.py: Provides user interaction and a menu system, allowing users to input choices and interact with contacts.</li>
+<li>main.py: The main entry point for the application, where the user interacts with the ContactsBook and initiates contact-related actions.</li>
+<li>contacts.py: The primary entry point for running the application.
+</ul>
 
 Features
 1. Add a New Contact
