@@ -18,7 +18,8 @@ contacts_project/
 
 <h2>Requirement:</h2>
 termcolor py module. <br>
-command to install.
+command to install. <br>
+
 `pip install termcolor`
 
 Each component serves a specific purpose within the application:
