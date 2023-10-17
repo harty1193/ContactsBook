@@ -33,17 +33,17 @@ Each component serves a specific purpose within the application:
 
 <h2>Features</h2>
 <b>1. Add a New Contact</b>
-Users can add new contacts by providing details such as First Name, Last Name, Email, Phone, Job Title, and Address. Contacts must have at least a First Name and Email.
+Users can add new contacts by providing details such as First Name, Last Name, Email, Phone, Job Title, and Address. Contacts must have at least a First Name and Email.<br>
 <b>2. Search for an Existing Contact</b>
-Users can search for existing contacts using various criteria, such as First Name, Last Name, Email, Phone, and Job Title. The application can return multiple entries if multiple contacts match the criteria.
+Users can search for existing contacts using various criteria, such as First Name, Last Name, Email, Phone, and Job Title. The application can return multiple entries if multiple contacts match the criteria.<br>
 <b>3. Edit an Existing Contact</b>
-Users can edit the details of an existing contact, including fields such as First Name, Last Name, Email, Phone, and Job Title. After making changes, the program asks for confirmation to save the edited contact.
+Users can edit the details of an existing contact, including fields such as First Name, Last Name, Email, Phone, and Job Title. After making changes, the program asks for confirmation to save the edited contact.<br>
 <b>4. Delete a Contact</b>
-Users can delete an existing contact from the list.
+Users can delete an existing contact from the list.<br>
 <b>5. Display All Contacts</b>
-The program can display the details of all stored contacts.
+The program can display the details of all stored contacts.<br>
 <b>6. Save and Restore Contact List</b>
-Contacts are saved into a pickle file when exiting the program. The program also prompts users for a file path to save/update the pickle file. When the program is restarted, it restores the previously saved contact list.
+Contacts are saved into a pickle file when exiting the program. The program also prompts users for a file path to save/update the pickle file. When the program is restarted, it restores the previously saved contact list.<br>
 
 <h3>Colorization</h3>
 The menu and user prompts are colorized using the termcolor library, enhancing the user interface and providing a better visual experience.
