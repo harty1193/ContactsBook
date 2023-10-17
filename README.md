@@ -1,10 +1,10 @@
-#ContactsBook Application
+<h1>ContactsBook Application</h1>
 In Python
 
-##Overview
+<h2>Overview</h2>
 The ContactsBook application is a Python program designed to help users create, store, manage, and interact with a list of contacts. This application uses a command-line interface (CLI) to provide various functionalities for managing contact information. It allows users to add new contacts, search for existing contacts, edit contact details, delete contacts, display all contacts, and save/restore the contact list to/from a file. The program is organized into separate modules within a directory structure, making it easy to maintain and expand.
 
-#Directory Structure
+<h2>Directory Structure</h2>
 The ContactsBook application is organized into the following directory structure:
 contacts_project/
 │
@@ -16,7 +16,7 @@ contacts_project/
 │	└── model.py
 |	└── contacts.py
 
-##Requirement:
+<h2>Requirement:</h2>
 termcolor py module. <br>
 command to install.
 `pip install termcolor`
@@ -30,25 +30,25 @@ Each component serves a specific purpose within the application:
 <li><b>contacts.py:</b> The primary entry point for running the application.
 </ul>
 
-Features
-1. Add a New Contact
+<h2>Features</h2>
+<b>1. Add a New Contact</b>
 Users can add new contacts by providing details such as First Name, Last Name, Email, Phone, Job Title, and Address. Contacts must have at least a First Name and Email.
-2. Search for an Existing Contact
+<b>2. Search for an Existing Contact</b>
 Users can search for existing contacts using various criteria, such as First Name, Last Name, Email, Phone, and Job Title. The application can return multiple entries if multiple contacts match the criteria.
-3. Edit an Existing Contact
+<b>3. Edit an Existing Contact</b>
 Users can edit the details of an existing contact, including fields such as First Name, Last Name, Email, Phone, and Job Title. After making changes, the program asks for confirmation to save the edited contact.
-4. Delete a Contact
+<b>4. Delete a Contact</b>
 Users can delete an existing contact from the list.
-5. Display All Contacts
+<b>5. Display All Contacts</b>
 The program can display the details of all stored contacts.
-6. Save and Restore Contact List
+<b>6. Save and Restore Contact List</b>
 Contacts are saved into a pickle file when exiting the program. The program also prompts users for a file path to save/update the pickle file. When the program is restarted, it restores the previously saved contact list.
 
-Colorization
+<h3>Colorization</h3>
 The menu and user prompts are colorized using the termcolor library, enhancing the user interface and providing a better visual experience.
 
-Usage
+<h3>Usage</h3>
 To run the ContactsBook application, execute the contacts.py script. Upon startup, the program will ask for the file path to save the contact data. Users can then interact with the application by selecting options from the menu.
 
-Conclusion
+<h2>Conclusion</h2>
 The ContactsBook application is a versatile tool for managing and organizing contact information. With a clear directory structure, easy-to-use menu system, and colorful interface, it offers an intuitive and visually pleasing way to handle contact-related tasks.
