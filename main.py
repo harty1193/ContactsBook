@@ -3,6 +3,8 @@ from termcolor import colored
 
 def main():
     file_path = input(colored("Enter the file path to save the contact data (e.g., contacts.pkl): ", 'cyan'))
+    if (file_path.startswith('"') and file_path.endswith('"')):
+        file_path = file_path.strip('"')
     views = ContactViews(file_path)
 
     while True:
